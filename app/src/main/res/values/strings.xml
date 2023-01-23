@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">BinaryLab Code Test</string>
     <string name="class_room">Classroom Page</string>
+    <string name="popular_courses">Popular Courses</string>
+    <string name="how_to_write_english_better">How to write English Better</string>
+    <string name="intermediate_level">Intermediate level</string>
+    <string name="writing">Writing</string>
 </resources>
