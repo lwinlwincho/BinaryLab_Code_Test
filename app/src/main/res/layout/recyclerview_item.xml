@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingBottom="@dimen/margin_x_tiny">
+
+    <TextView
+        android:id="@+id/course_heading"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_small"
+        android:textAppearance="@style/Theme.BinaryLabCodeTest."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/iv_poster"
+        android:layout_width="327dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="@dimen/margin_x_tiny"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/course_heading"
+        app:shapeAppearance="@style/Theme.BinaryLabCodeTest.PhotoGrid"
+        tools:src="@drawable/ic_placeholder" />
+
+    <TextView
+        android:id="@+id/tv_english"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_small"
+        android:textAppearance="@style/Theme.MovieBD.SubTitle"
+        app:layout_constraintEnd_toEndOf="@+id/iv_poster"
+        app:layout_constraintStart_toStartOf="@+id/iv_poster"
+        app:layout_constraintTop_toBottomOf="@+id/iv_poster"
+        />
+    
+</androidx.constraintlayout.widget.ConstraintLayout>
